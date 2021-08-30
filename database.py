@@ -55,5 +55,5 @@ items = c.fetchall()
 for item in items:
 	print(item)
 
-
+# connection close
 conn.close()
